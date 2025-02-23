@@ -1,0 +1,56 @@
+.features-2 .feature-item .feature-icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color:#ECF5FF;
+  }
+  
+  .features-2 .feature-item .feature-icon i {
+    font-size: 24px;
+    color: var(--accent-color);
+  }
+  
+  .features-2 .feature-item .feature-content h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .features-2 .feature-item .feature-content p {
+    color: color-mix(in srgb, var(--default-color), transparent 25%);
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+  
+  .features-2 .phone-mockup {
+    position: relative;
+    padding: 30px 0;
+  }
+  
+  .features-2 .phone-mockup img {
+    max-width: 420px;
+    height: auto;
+    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.1));
+  }
+  
+  @media (max-width: 991.98px) {
+    .features-2 .feature-item {
+      text-align: center !important;
+      margin-bottom: 2rem;
+    }
+  
+    .features-2 .feature-item .d-flex {
+      flex-direction: column;
+      text-align: center;
+      justify-content: center !important;
+    }
+  
+    .features-2 .phone-mockup {
+      margin: 3rem 0;
+    }
+  }
+  
+  
