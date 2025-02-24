@@ -1,6 +1,6 @@
 import React from 'react';
 import "../Use/Use.css";
-import midimg from "../Use/phone-app-screen.png";
+import midimg from "../Use/phone-app-screen.webp";
 
 function Use() {
     return (
