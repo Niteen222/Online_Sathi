@@ -54,7 +54,7 @@ function Use() {
 
                         <div className="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
                             <div className="phone-mockup text-center">
-                                <img src={midimg} alt="Phone Mockup" className="img-fluid"/>
+                                <img src={midimg} alt="Phone Mockup" width={"80%"} className="img-fluid"/>
                             </div>
                         </div>
 

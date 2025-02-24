@@ -34,8 +34,8 @@ function About() {
                             </div>
 
                             <div className="info-wrapper">
-                                <div className="row gy-4">
-                                    <div className="col-lg-5 border rounded p-1 ">
+                                <div className="row gy-">
+                                    <div className="col-lg-5 border rounded">
                                         <div className="profile d-flex align-items-center gap-3">
                                             <img src={ceo} alt="CEO Profile" className="profile-image border" />
                                             <div>
