@@ -1,4 +1,5 @@
 import React from 'react';
+import "../Home/Home.css";
 import { useMediaQuery } from 'react-responsive';
 import worker from "../Home/Workers Image.png";
 import homeimg2 from "../Home/Homeimg2.png";
@@ -127,7 +128,7 @@ function Home() {
                                     alignItems: "center",
                                     justifyContent: "center",
                                     width: "100%",
-                                    marginTop: isMobile ? '' : isTablet? '' : '100px'
+                                    marginTop: isMobile ? '' : isTablet ? '' : '100px'
                                 }}>
                                     {/* Stats Boxes */}
                                     {[
@@ -267,7 +268,7 @@ function Home() {
                                     alignItems: "center",
                                     justifyContent: "center",
                                     width: "100%",
-                                    marginTop: isMobile ? '' : isTablet? '' : '100px'
+                                    marginTop: isMobile ? '' : isTablet ? '' : '100px'
                                 }}>
                                     {/* Stats Boxes */}
                                     {[
@@ -396,7 +397,7 @@ function Home() {
                                     textAlign: window.innerWidth < 768 ? "center" : "left",
                                     marginBottom: "20px"
                                 }}>
-                                   By collaborating with multiple service providers, Online Saathi has expanded access to diverse job opportunities across various industries, connecting workers with roles suited to their expertise.
+                                    By collaborating with multiple service providers, Online Saathi has expanded access to diverse job opportunities across various industries, connecting workers with roles suited to their expertise.
                                 </p>
 
                                 {/* Stats and CTA Section */}
@@ -407,7 +408,7 @@ function Home() {
                                     alignItems: "center",
                                     justifyContent: "center",
                                     width: "100%",
-                                    marginTop: isMobile ? '' : isTablet? '' : '100px'
+                                    marginTop: isMobile ? '' : isTablet ? '' : '100px'
                                 }}>
                                     {/* Stats Boxes */}
                                     {[
@@ -547,7 +548,7 @@ function Home() {
                                     alignItems: "center",
                                     justifyContent: "center",
                                     width: "100%",
-                                    marginTop: isMobile ? '' : isTablet? '' : '100px'
+                                    marginTop: isMobile ? '' : isTablet ? '' : '100px'
                                 }}>
                                     {/* Stats Boxes */}
                                     {[
@@ -625,7 +626,7 @@ function Home() {
 
                         </div>
                     </div>
-                    
+
                 </div>
 
                 {/* Navigation Controls */}
@@ -638,7 +639,111 @@ function Home() {
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>
-
+            <div className="container">
+                <h1 className='mt-5' style={{
+                    fontSize: window.innerWidth < 768 ? "34px" : "52px",
+                    fontWeight: "700",
+                    width: '100%',
+                    color: '#000',
+                    textAlign: 'center'
+                }}>
+                    <span>Overcoming Challenges in the </span>
+                    <br />
+                    <span style={{ color: '#0077FF' }}>Unorganized Sector</span>
+                </h1>
+                <br />
+                <p className='text-center' style={{ fontSize: '27px', color: '#000000' }}>The Reality for India’s Invisible Workforce India’s informal workforce faces significant barriers in accessing essential welfare schemes and services. Despite the government’s investment of ₹2 lakh crore in welfare programs, over 83% of these workers earn less than ₹1.2 lakh annually. They encounter challenges such as:</p>
+                {/* Overcoming challenge */}
+                <div className="album py-5 bg-body-tertiary">
+                    <div className="container">
+                        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                            <div className="hover-card-container">
+                                <div className="hover-card">
+                                    {/* Default Text (Visible when NOT hovered) */}
+                                    <div className="card-text">Limited Access to Essential Services</div>
+                                    {/* Hover Text (Visible when hovered) */}
+                                    <div className="hover-text">
+                                        Informal workers often <strong>miss out on banking, insurance, and welfare services</strong> due to
+                                        limited documentation and awareness.
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="hover-card-container">
+                                <div className="hover-card">
+                                    {/* Default Text (Visible when NOT hovered) */}
+                                    <div className="card-text">Lack of Sustainable Income Opportunities</div>
+                                    {/* Hover Text (Visible when hovered) */}
+                                    <div className="hover-text second-text">
+                                        With few formal job opportunities available locally, people often rely on low-paying, irregular work or
+                                        <strong> face the difficult choice of migrating</strong> to cities <strong>in search of income</strong>,
+                                        leaving behind their families and communities.
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="hover-card-container">
+                                <div className="hover-card">
+                                    {/* Default Text (Visible when NOT hovered) */}
+                                    <div className="card-text">Barriers to Growth and Financial Stability </div>
+                                    {/* Hover Text (Visible when hovered) */}
+                                    <div className="hover-text third-text">
+                                        Without access to credit, training, and formal support, members of the informal workforce
+                                        <strong> find it challenging to achieve economic stability</strong> or build a career path
+                                        that allows for personal and professional growth.
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="hover-card-container">
+                                <div className="hover-card">
+                                    {/* Default Text (Visible when NOT hovered) */}
+                                    <div className="card-text">Lack of Awareness and Access  </div>
+                                    {/* Hover Text (Visible when hovered) */}
+                                    <div className="hover-text third-text">
+                                        Many informal workers are <strong>unaware of available welfare schemes </strong>
+                                        or lack the means to access them due to complicated processes and minimal
+                                        digital literacy.
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="hover-card-container">
+                                <div className="hover-card">
+                                    {/* Default Text (Visible when NOT hovered) */}
+                                    <div className="card-text">Complex Processes</div>
+                                    {/* Hover Text (Visible when hovered) */}
+                                    <div className="hover-text third-text">
+                                        Government schemes involve extensive documentation, challenging
+                                        timelines, and <strong>lack of clarity</strong>, deterring informal
+                                        workers from fully utilizing available resources.
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="hover-card-container">
+                                <div className="hover-card">
+                                    {/* Default Text (Visible when NOT hovered) */}
+                                    <div className="card-text">Information and Usage Gaps </div>
+                                    {/* Hover Text (Visible when hovered) */}
+                                    <div className="hover-text third-text">
+                                        Even when informal workers gain access to a scheme, understanding how to
+                                        effectively utilize benefits remains a hurdle. This{" "}
+                                        <strong>lack of guidance</strong> often results in{" "}
+                                        <strong>underutilization of resources</strong>, such as the high number
+                                        of inactive Jan Dhan accounts.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h1 className='mt-5' style={{
+                    fontSize: window.innerWidth < 768 ? "34px" : "52px",
+                    fontWeight: "700",
+                    width: '100%',
+                    color: '#000',
+                    textAlign: 'center'
+                }}>
+                    <span>Our </span>
+                    <span style={{ color: '#0077FF' }}>Solution</span>
+                </h1>
+            </div>
         </>
     )
 }
