@@ -1,10 +1,12 @@
 import React from 'react';
 import "../Use/Use.css";
 import midimg from "../Use/phone-app-screen.webp";
+import About from '../About/About';
 
 function Use() {
     return (
         <>
+        <About/>
         <br />
         <br />
         <br />
@@ -102,6 +104,9 @@ function Use() {
                 </div>
 
             </section>
+            
+            <br />
+            <br />
         </>
     )
 }

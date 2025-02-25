@@ -23,6 +23,7 @@ function App() {
           <Route path='partner' element={<Partners/>} />
           <Route path='sathi' element={<Saathi/>} />
           <Route path='contact' element={<Contact/>} />
+          <Route path='tech' element={<Use/>} />
         </Routes>
         <Footer />
       </Router>

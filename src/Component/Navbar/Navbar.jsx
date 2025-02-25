@@ -14,7 +14,7 @@ function Navbar() {
                 <div className="container ">
                     <nav className="navbar navbar-expand-lg ">
                         <div className="container-fluid">
-                            <a className="navbar-brand" href="">
+                            <a className="navbar-brand" href="https://online-sathi.vercel.app/">
                                 <div style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
                                     <img src={logo} style={{ height: isMobile ? '40px' : '50px' }} alt="" />
                                     <div style={{ display: 'flex', gap: '4px' }}>
@@ -34,28 +34,28 @@ function Navbar() {
                                     <ul className="navbar-nav me-auto mb-2 mb-lg-0" style={{ display: 'flex', alignItems: isMobile ? '' : isTablet ? '' : 'center', gap: isMobile ? '' : isTablet ? '' : '20px' }}>
                                         <li className="nav-item">
                                             <a className="nav-link active" aria-current="page" href="#" style={{ fontSize: '17px', color: '#000000', fontWeight: '600' }}>
-                                            <NavLink
-                                            to="partner"
-                                            className={({ isActive }) =>
-                                                `nav-item nav-link  ${isActive ? "active" : ""
-                                                }`
-                                            }
-                                        >
-                                            Partner
-                                        </NavLink>
+                                                <NavLink
+                                                    to="partner"
+                                                    className={({ isActive }) =>
+                                                        `nav-item nav-link  ${isActive ? "active" : ""
+                                                        }`
+                                                    }
+                                                >
+                                                    Partner
+                                                </NavLink>
                                             </a>
                                         </li>
                                         <li className="nav-item">
                                             <a className="nav-link active" aria-current="page" href="#" style={{ fontSize: '17px', color: '#000000', fontWeight: '600' }}>
-                                            <NavLink
-                                            to="sathi"
-                                            className={({ isActive }) =>
-                                                `nav-item nav-link  ${isActive ? "active" : ""
-                                                }`
-                                            }
-                                        >
-                                            Saathi
-                                        </NavLink>
+                                                <NavLink
+                                                    to="sathi"
+                                                    className={({ isActive }) =>
+                                                        `nav-item nav-link  ${isActive ? "active" : ""
+                                                        }`
+                                                    }
+                                                >
+                                                    Saathi
+                                                </NavLink>
                                             </a>
                                         </li>
                                         <li className="nav-item dropdown">
@@ -83,10 +83,30 @@ function Navbar() {
                                             </ul>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link active" aria-current="page" href="#" style={{ fontSize: '17px', color: '#000000', fontWeight: '600' }}>Technology</a>
+                                            <a className="nav-link active" aria-current="page" href="#" style={{ fontSize: '17px', color: '#000000', fontWeight: '600' }}>
+                                                <NavLink
+                                                    to="tech"
+                                                    className={({ isActive }) =>
+                                                        `nav-item nav-link  ${isActive ? "active" : ""
+                                                        }`
+                                                    }
+                                                >
+                                                    Technology
+                                                </NavLink>
+                                            </a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link active" aria-current="page" href="#" style={{ fontSize: '17px', color: '#000000', fontWeight: '600' }}>About Us</a>
+                                            <a className="nav-link active" aria-current="page" href="#" style={{ fontSize: '17px', color: '#000000', fontWeight: '600' }}>
+                                                <NavLink
+                                                    to="contact"
+                                                    className={({ isActive }) =>
+                                                        `nav-item nav-link  ${isActive ? "active" : ""
+                                                        }`
+                                                    }
+                                                >
+                                                    Contact Us
+                                                </NavLink>
+                                            </a>
                                         </li>
                                         <li className="nav-item mb-4 mt-3">
                                             <div style={{ background: '#0077FF', gap: '8px', height: isMobile ? '38px' : '48px', borderRadius: '30px', display: 'flex', alignItems: 'center', cursor: 'pointer', width: isMobile ? '100px' : '130px', justifyContent: 'center' }}>
