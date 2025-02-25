@@ -1080,7 +1080,7 @@ function Home() {
                 </h1>
                 <br />
                 <br />
-                <div className="py-2">
+                <div className="py-2 mb-5">
                     <div className="scroll-container">
                         <div className="scroll-content">
                             {/* 🔥 SINGLE image-row repeated twice for seamless effect */}

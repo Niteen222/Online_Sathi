@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from "../Navbar/logo.png";
 import { useMediaQuery } from 'react-responsive';
+import { NavLink } from 'react-router-dom';
+import { Home } from 'lucide-react';
 
 
 function Navbar() {
@@ -12,7 +14,7 @@ function Navbar() {
                 <div className="container ">
                     <nav className="navbar navbar-expand-lg ">
                         <div className="container-fluid">
-                            <a className="navbar-brand" href="#">
+                            <a className="navbar-brand" href="">
                                 <div style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
                                     <img src={logo} style={{ height: isMobile ? '40px' : '50px' }} alt="" />
                                     <div style={{ display: 'flex', gap: '4px' }}>
@@ -31,10 +33,30 @@ function Navbar() {
                                 <form className="d-flex" role="search">
                                     <ul className="navbar-nav me-auto mb-2 mb-lg-0" style={{ display: 'flex', alignItems: isMobile ? '' : isTablet ? '' : 'center', gap: isMobile ? '' : isTablet ? '' : '20px' }}>
                                         <li className="nav-item">
-                                            <a className="nav-link active" aria-current="page" href="#" style={{ fontSize: '17px', color: '#000000', fontWeight: '600' }}>Partners</a>
+                                            <a className="nav-link active" aria-current="page" href="#" style={{ fontSize: '17px', color: '#000000', fontWeight: '600' }}>
+                                            <NavLink
+                                            to="partner"
+                                            className={({ isActive }) =>
+                                                `nav-item nav-link  ${isActive ? "active" : ""
+                                                }`
+                                            }
+                                        >
+                                            Partner
+                                        </NavLink>
+                                            </a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link active" aria-current="page" href="#" style={{ fontSize: '17px', color: '#000000', fontWeight: '600' }}>Sathi</a>
+                                            <a className="nav-link active" aria-current="page" href="#" style={{ fontSize: '17px', color: '#000000', fontWeight: '600' }}>
+                                            <NavLink
+                                            to="sathi"
+                                            className={({ isActive }) =>
+                                                `nav-item nav-link  ${isActive ? "active" : ""
+                                                }`
+                                            }
+                                        >
+                                            Saathi
+                                        </NavLink>
+                                            </a>
                                         </li>
                                         <li className="nav-item dropdown">
                                             <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" style={{ fontSize: '17px', color: '#000000', fontWeight: '600' }}>
@@ -51,7 +73,7 @@ function Navbar() {
                                                     <a className="nav-link active" aria-current="page" href="#" style={{ fontSize: '16px', color: '#000000', fontWeight: '600' }}>Social Welfare Schemes</a>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <a className="nav-link active" aria-current="page" href="#" style={{ fontSize: '16px', color: '#000000', fontWeight: '600' }}>Our Community</a>
+                                                    <a className="nav-link active" aria-current="page" href="#" style={{ fontSize: '16px', color: '#000000', fontWeight: '600' }}>Our Technology</a>
                                                 </li>
                                                 <li className="nav-item dropdown">
                                                     <a className="nav-link dropdown-toggle" href="#" id="nestedDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ fontSize: '16px', color: '#000000', fontWeight: '600' }}>
@@ -61,7 +83,7 @@ function Navbar() {
                                             </ul>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link active" aria-current="page" href="#" style={{ fontSize: '17px', color: '#000000', fontWeight: '600' }}>Community</a>
+                                            <a className="nav-link active" aria-current="page" href="#" style={{ fontSize: '17px', color: '#000000', fontWeight: '600' }}>Technology</a>
                                         </li>
                                         <li className="nav-item">
                                             <a className="nav-link active" aria-current="page" href="#" style={{ fontSize: '17px', color: '#000000', fontWeight: '600' }}>About Us</a>

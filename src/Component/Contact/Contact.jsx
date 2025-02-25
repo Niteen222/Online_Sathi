@@ -56,7 +56,7 @@ function Contact() {
                                         <div className="content">
                                             <h4>Email Address</h4>
                                             <p>help@onlinesaathi.org</p>
-                                            <p></p>
+                                            <p>admin@onlinesaathi.org.</p>
                                         </div>
                                     </div>
                                 </div>
