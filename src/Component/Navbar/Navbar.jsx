@@ -8,7 +8,7 @@ function Navbar() {
     const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 991 });
     return (
         <>
-            <div className='sticky-top bg-white'>
+            <div className=' bg-white shadow'>
                 <div className="container ">
                     <nav className="navbar navbar-expand-lg ">
                         <div className="container-fluid">

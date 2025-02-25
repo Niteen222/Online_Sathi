@@ -10,8 +10,8 @@ function Footer() {
 
     return (
         <>
-            <div style={{ background: '#018BD3', height:isMobile? '' : isTablet? '' : '70px', display: 'flex', alignItems: 'center',padding:'10px' }}>
-                <div className='container' style={{ display: 'flex', justifyContent:isMobile? 'center' : isTablet? 'center' : 'space-between',flexDirection:isMobile? 'column' : isTablet? 'column' : '' }}>
+            <div style={{ background: '#018BD3', height: isMobile ? '' : isTablet ? '' : '70px', display: 'flex', alignItems: 'center', padding: '10px' }}>
+                <div className='container' style={{ display: 'flex', justifyContent: isMobile ? 'center' : isTablet ? 'center' : 'space-between', flexDirection: isMobile ? 'column' : isTablet ? 'column' : '' }}>
                     <h3 style={{ fontWeight: '700', color: '#fff' }}>Become a Saathi Partner and earn upto 20k per Month</h3>
                     <div style={{ background: '#078507', gap: '8px', height: isMobile ? '30px' : '40px', borderRadius: '30px', display: 'flex', alignItems: 'center', cursor: 'pointer', width: isMobile ? '100px' : '130px', justifyContent: 'center' }}>
                         <span data-bs-toggle="modal" data-bs-target="#loginModal" style={{ fontWeight: '700', fontSize: isMobile ? '12px' : '14px', color: '#FFFFFF', }}><i class="fa-solid fa-user"></i> Apply Now</span>
@@ -69,15 +69,19 @@ function Footer() {
                             </ul>
                         </div>
 
-
+                        <div className="" style={{display:'flex',justifyContent:isMobile? '' : 'center',gap:isMobile? '0px' : '30px',flexDirection:isMobile? 'column' : ''}}>
+                            <h5 className='text-white'>Refund Policy  </h5>
+                            <h5 className='text-white'>Terms & Conditions</h5>
+                            <h5 className='text-white'>Privacy Policy</h5>
+                        </div>
                     </div>
                 </div>
-
-                <div className="container copyright text-center mt-4">
-                    <p>© <span>Copyright</span> <strong className="px-1 sitename">iLanding</strong> <span>All Rights Reserved</span></p>
-                </div>
-
             </footer>
+            <div style={{ background: '#50A0F1', height: isMobile ? '' : isTablet ? '' : '70px', display: 'flex', alignItems: 'center', padding: '10px' }}>
+                <div className='container' style={{textAlign:'center' }}>
+                    <h5 style={{ fontWeight: '600', color: '#fff',textAlign:'center' }}>Copyright © 2018-2024 Online Saathi. All Rights Received. </h5>
+                </div>
+            </div>
         </>
     )
 }

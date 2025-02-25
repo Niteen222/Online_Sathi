@@ -7,7 +7,16 @@ function Contact() {
             <div className="container mt-5">
                 <section id="contact" className="contact section light-background">
                     <div className="container section-title" data-aos="fade-up">
-                        <h1 className='text-center mb-3'>Contact</h1>
+                        <h1 className='mt-5 mb-4' style={{
+                            fontSize: window.innerWidth < 768 ? "34px" : "52px",
+                            fontWeight: "700",
+                            width: '100%',
+                            color: '#000',
+                            textAlign: 'center'
+                        }}>
+                            <span>Contact</span>
+                            <span style={{ color: '#0077FF' }}> Us</span>
+                        </h1>
                     </div>
                     <br />
 
@@ -24,8 +33,8 @@ function Contact() {
                                         </div>
                                         <div className="content">
                                             <h4>Our Location</h4>
-                                            <p>A108 Adam Street</p>
-                                            <p>New York, NY 535022</p>
+                                            <p>309 3th Floor The Atlanta Business Hub, Nana</p>
+                                            <p>Chiloda, Ahmedabad, Gujarat 302330</p>
                                         </div>
                                     </div>
 
@@ -35,19 +44,19 @@ function Contact() {
                                         </div>
                                         <div className="content">
                                             <h4>Phone Number</h4>
-                                            <p>+1 5589 55488 55</p>
-                                            <p>+1 6678 254445 41</p>
+                                            <p>+91 909 900 5251</p>
+                                            <p></p>
                                         </div>
                                     </div>
 
                                     <div className="info-item" data-aos="fade-up" data-aos-delay="500">
                                         <div className="icon-box">
-                                        <i class="fa-solid fa-envelope"></i>
+                                            <i class="fa-solid fa-envelope"></i>
                                         </div>
                                         <div className="content">
                                             <h4>Email Address</h4>
-                                            <p>info@example.com</p>
-                                            <p>contact@example.com</p>
+                                            <p>help@onlinesaathi.org</p>
+                                            <p></p>
                                         </div>
                                     </div>
                                 </div>

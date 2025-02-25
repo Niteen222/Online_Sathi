@@ -7,29 +7,27 @@ import about1 from "../About/about-5.webp";
 function About() {
     return (
         <>
+        <br />
             <section id="about" className="about section">
                 <div className="container" data-aos="fade-up" data-aos-delay="100">
                     <div className="row gy-4 align-items-center justify-content-between">
                         <br />
-                        <h1 className="text-center mt-5 mb-4">More About Us</h1>
+                        <h1 className='mt-5 mb-4' style={{
+                            fontSize: window.innerWidth < 768 ? "34px" : "52px",
+                            fontWeight: "700",
+                            width: '100%',
+                            color: '#000',
+                            textAlign: 'center'
+                        }}>
+                            <span>About</span>
+                            <span style={{ color: '#0077FF' }}> Us</span>
+                        </h1>
                         <div className="col-xl-5" data-aos="fade-up" data-aos-delay="200">
-                            <h2 className="about-title">Voluptas enim suscipit temporibus</h2>
-                            <p className="about-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-
+                            <h2 className="about-title">Transforming Access and Opportunities for India’s Informal Workforce</h2>
+                            <p className="about-description">A <b style={{color:'#0077FF',fontSize:'19px'}}>tech-driven network</b> bridging the gap for informal workers to access essential services, social welfare schemes, safe job opportunities, and on-demand services like banking, insurance, and travel and E-governance services.</p>
                             <div className="row feature-list-wrapper">
-                                <div className="col-md-6">
-                                    <ul className="feature-list">
-                                        <li><i className="bi bi-check-circle-fill"></i> Lorem ipsum dolor sit amet</li>
-                                        <li><i className="bi bi-check-circle-fill"></i> Consectetur adipiscing elit</li>
-                                        <li><i className="bi bi-check-circle-fill"></i> Sed do eiusmod tempor</li>
-                                    </ul>
-                                </div>
-                                <div className="col-md-6">
-                                    <ul className="feature-list">
-                                        <li><i className="bi bi-check-circle-fill"></i> Incididunt ut labore et</li>
-                                        <li><i className="bi bi-check-circle-fill"></i> Dolore magna aliqua</li>
-                                        <li><i className="bi bi-check-circle-fill"></i> Ut enim ad minim veniam</li>
-                                    </ul>
+                                <div className="col-md-">
+                                <p className="about-description">Online Saathi connects rural and migrant workers with crucial services, empowering communities through a <b style={{color:'#0077FF',fontSize:'19px'}}>network of dedicated agents.</b></p>
                                 </div>
                             </div>
 
@@ -49,7 +47,7 @@ function About() {
                                             <i class="fa-solid fa-phone"></i>
                                             <div>
                                                 <p className="contact-label">Call us anytime</p>
-                                                <p className="contact-number">+123 456-789</p>
+                                                <p className="contact-number">+91 909 900 5251</p>
                                             </div>
                                         </div>
                                     </div>
@@ -63,8 +61,8 @@ function About() {
                                     <img src={about1} alt="Business Meeting" className="img-fluid main-image rounded-4" />
                                     <img src={about} alt="Team Discussion" className="img-fluid small-image rounded-4" />
                                 </div>
-                                <div className="experience-badge floating" style={{background:'#0077FF'}}>
-                                    <h3 className='text-white fw-bold'>15+ <span>Years</span></h3>
+                                <div className="experience-badge floating" style={{ background: '#0077FF' }}>
+                                    <h3 className='text-white fw-bold'>7+ <span>Years</span></h3>
                                     <p className='text-white fw-bold'>Of experience in business service</p>
                                 </div>
                             </div>
